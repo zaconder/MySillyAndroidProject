@@ -52,7 +52,8 @@ public class SillyActivity extends Activity
 			@Override
 			public void onClick(View v)
 			{
-				appLayout.setBackgroundResource(R.color.uglyGreen);
+				int myRandomSpot = (int) (Math.random()*colorList.size());
+				appLayout.setBackgroundResource(colorList.get(myRandomSpot));
 			}
 		});
 		

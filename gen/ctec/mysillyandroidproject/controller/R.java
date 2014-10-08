@@ -1100,7 +1100,7 @@ containing a value of this type.
         public static final int end=0x7f050013;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
-        public static final int firstButton=0x7f05003d;
+        public static final int firstButton=0x7f05003e;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
@@ -1129,7 +1129,7 @@ containing a value of this type.
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
         public static final int showTitle=0x7f050006;
-        public static final int sillyTextView=0x7f05003e;
+        public static final int sillyTextView=0x7f05003d;
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
