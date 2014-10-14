@@ -5,6 +5,8 @@
     <string name="labelText">words go here</string>
     <string name="funText">isn\'t this so fun</string>
     <string name="sarcasmText">ha</string>
-    <string name="boringText">Blah blah blah</string>
+    <string name="boringText">This is really cool!</string>
+    <string name="ChangeColor">Click to Change the Color</string>
+    <string name="ChangeText">Click to Change Text</string>
 
 </resources>

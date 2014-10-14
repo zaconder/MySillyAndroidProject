@@ -6,24 +6,28 @@
     android:background="@color/uglyRed"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <TextView
-        android:id="@+id/sillyTextView"
+    <Button
+        android:id="@+id/secondButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/firstButton"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="32dp"
-        android:layout_marginRight="106dp"
-        android:text="@string/boringText"
-        android:textColor="@color/uglyGreen" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/ChangeColor" />
 
     <Button
         android:id="@+id/firstButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/sillyTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/secondButton"
+        android:text="@string/ChangeText" />
+
+    <TextView
+        android:id="@+id/appLayoutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginRight="36dp"
         android:text="@string/funText" />
 
 </RelativeLayout>
